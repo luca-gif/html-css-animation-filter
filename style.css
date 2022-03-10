@@ -98,12 +98,43 @@
     filter: sepia(60%) grayscale(40%);
 }
 
+
 .ex-10-icon {
     font-size: 60px;
+    animation-name: run;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
 }
+
+@keyframes run{
+    0%{
+        transform: rotate(1turn); 
+    }
+}
+
+
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover{
+    animation-name: run-two;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+
+}
+
+@keyframes run-two{
+    0%{
+        top: 0%;
+        left: 0%;
+        transform: rotate();
+    
+    }
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
