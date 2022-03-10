@@ -130,7 +130,7 @@
     0%{
         top: 0%;
         left: 0%;
-        transform: rotate();
+        transform: rotate(1turn);
     
     }
 }
