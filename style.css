@@ -129,10 +129,13 @@
 @keyframes run-two{
     0%{
         
-        transform: rotate(315deg);    
+        transform: rotate(0);    
     }
     90%{
-        transform: rotate(150deg);
+        transform: rotate(315deg);
+    }
+    100%{
+        transform: rotate(0);
     }
 }
 
